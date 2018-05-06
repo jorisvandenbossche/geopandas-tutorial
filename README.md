@@ -57,7 +57,7 @@ Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/jorisvandenbossche/geopandas-tutorial) in
 your browser and click the green "Download" button in the upper right:
 
-
+![](img/download-button.png)
 
 I will probably make some changes until the start of the tutorial, so best to download
 the latest version then (again), or do a `git pull` if you are using git.
