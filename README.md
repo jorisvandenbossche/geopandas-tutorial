@@ -33,7 +33,7 @@ Following this tutorial will require recent installations of:
 
 If you do not yet have these packages installed, I recommend to use the [conda](http://conda.pydata.org/docs/intro.html) package manager to install all the requirements 
 (you can install [miniconda](http://conda.pydata.org/miniconda.html) or install the (larger) Anaconda
-distribution, found at http://continuum.io/downloads).
+distribution, found at https://www.anaconda.com/download/).
 
 Once this is installed, the following command will install all required packages in your Python environment:
 
@@ -41,7 +41,7 @@ Once this is installed, the following command will install all required packages
 conda install jupyter geopandas geoplot
 ```
 
-But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is good as well (a requirements file is provided as well), as long
+But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well (a requirements file is provided as well), as long
 as you have the above packages installed.
 
 
