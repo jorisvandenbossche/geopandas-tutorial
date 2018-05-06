@@ -1,5 +1,7 @@
 # Introduction to geospatial data analysis with GeoPandas and the PyData stack
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jorisvandenbossche/geopandas-tutorial/master)
+
 ## Tutorial on geospatial data manipulation with Python
 
 This tutorial is an introduction to geospatial data analysis in Python, with a focus on tabular vector data using GeoPandas. 
