@@ -4,4 +4,6 @@ channels:
 dependencies:
   - geopandas
   - geoplot
+  - pysal
+  - folium
 
