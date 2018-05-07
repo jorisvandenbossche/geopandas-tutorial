@@ -53,7 +53,7 @@ as you have the above packages installed.
 
 If you have git installed, you can get the tutorial materials by cloning this repo:
 
-    git clone https://github.com/jorisvandenbossche/pandas-tutorial.git
+    git clone https://github.com/jorisvandenbossche/geopandas-tutorial.git
 
 Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/jorisvandenbossche/geopandas-tutorial) in
