@@ -1,0 +1,1 @@
+kahuzi = protected_areas_utm[protected_areas_utm['NAME_AP'] == "Kahuzi-Biega National park"].geometry.squeeze()

@@ -1,0 +1,1 @@
+dist_goma.nsmallest(5)

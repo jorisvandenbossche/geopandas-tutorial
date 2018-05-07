@@ -1,0 +1,1 @@
+dist = protected_areas_utm.distance(single_mine)

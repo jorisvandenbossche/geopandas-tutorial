@@ -1,0 +1,1 @@
+data_within_protected.groupby('NAME_AP')['workers_numb'].sum()

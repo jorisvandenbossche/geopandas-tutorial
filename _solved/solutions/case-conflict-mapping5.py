@@ -1,0 +1,1 @@
+len(data_visits)

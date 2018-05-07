@@ -1,0 +1,1 @@
+len(mines_kahuzi)
