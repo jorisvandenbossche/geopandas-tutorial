@@ -1,0 +1,1 @@
+districts.loc[districts.geometry.area.idxmax()]
