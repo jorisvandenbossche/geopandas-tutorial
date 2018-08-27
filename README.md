@@ -15,8 +15,9 @@ The tutorial will cover the following topics, each of them using Jupyter noteboo
 4. Spatial joins and overlays
 5. Short showcase of parallel/distributed geospatial analysis with Dask
 
-This repository will contain the teaching material for the geospatial data analysis tutorial
-at [GeoPython 2018](http://2018.geopython.net), May 7-9 2018, Basel, Switzerland.
+This repository initially contained the teaching material for the geospatial data analysis tutorial
+at [GeoPython 2018](http://2018.geopython.net), May 7-9 2018, Basel, Switzerland, and was later updated and also
+used at [Scipy 2018](https://scipy2018.scipy.org/) and [EuroScipy 2018](https://www.euroscipy.org/2018/).
 
 
 ## Installation notes
@@ -29,11 +30,11 @@ Following this tutorial will require recent installations of:
 - matplotlib
 - rtree
 - PySAL
-- cartopy
-- geoplot
 - [Jupyter Notebook](http://jupyter.org)
+- *(optional for visualisation showcase)* cartopy
+- *(optional for visualisation showcase)* geoplot
 
-If you do not yet have these packages installed, I recommend to use the [conda](http://conda.pydata.org/docs/intro.html) package manager to install all the requirements 
+If you do not yet have these packages installed, we recommend to use the [conda](http://conda.pydata.org/docs/intro.html) package manager to install all the requirements 
 (you can install [miniconda](http://conda.pydata.org/miniconda.html) or install the (larger) Anaconda
 distribution, found at https://www.anaconda.com/download/).
 
@@ -49,7 +50,7 @@ as you have the above packages installed.
 
 ## Downloading the tutorial materials
 
-**Note**: I am still updating the materials, so I recommend to only download the materials on Monday morning before the tutorial starts (or to update your local copy then).
+**Note**: *I am still updating the materials, so I recommend to only download the materials the morning before the tutorial starts, or to update your local copy then. To update a local copy, you can download the latest version again, or do a `git pull` if you are using git.*
 
 If you have git installed, you can get the tutorial materials by cloning this repo:
 
@@ -61,6 +62,14 @@ your browser and click the green "Download" button in the upper right:
 
 ![](img/download-button.png)
 
-I will probably make some changes until the start of the tutorial, so best to download
-the latest version then (again), or do a `git pull` if you are using git.
+
+## Test the tutorial environment
+
+To make sure everything was installed correctly, open a terminal, and change its directory (`cd`) so that your working directory is the tutorial materials you downloaded in the step above. Then enter the following:
+
+```sh
+python check_environment.py
+```
+
+Make sure that this scripts prints "All good. Enjoy the tutorial!"
 
