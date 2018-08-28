@@ -1,0 +1,1 @@
+districts_seine = districts[districts.intersects(seine_buffer)]
