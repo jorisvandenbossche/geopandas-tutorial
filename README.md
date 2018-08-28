@@ -41,7 +41,14 @@ distribution, found at https://www.anaconda.com/download/).
 Once this is installed, the following command will install all required packages in your Python environment:
 
 ```
-conda install jupyter geopandas geoplot
+conda install jupyter geopandas
+```
+
+For the optional dependencies, you can do:
+
+```
+conda install cartopy
+conda install geoplot -c conda-forge
 ```
 
 But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well (a requirements file is provided as well), as long
