@@ -55,6 +55,8 @@ conda install geoplot -c conda-forge
 But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well (a requirements file is provided as well), as long
 as you have the above packages installed.
 
+**Want to try out without installing anything?** You can use the "launch binder" link above at the top of this README, which will launch a notebook instance on Binder with all required libraries installed.
+
 
 ## Downloading the tutorial materials
 
