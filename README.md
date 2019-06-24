@@ -26,13 +26,14 @@ Following this tutorial will require recent installations of:
 
 - Python >= 3.5 (it will probably work on python 2.7 as well, but I didn't test it specifically)
 - pandas
-- geopandas >= 0.3.0
+- geopandas >= 0.5.0
 - matplotlib
 - rtree
-- PySAL
+- mapclassify
+- contextily
 - [Jupyter Notebook](http://jupyter.org)
-- *(optional for visualisation showcase)* cartopy
-- *(optional for visualisation showcase)* geoplot
+- *(optional for mining sites case study)* rasterio, rasterstats
+- *(optional for visualisation showcase)* cartopy, geoplot, folium, ipyleaflet
 
 If you do not yet have these packages installed, we recommend to use the [conda](http://conda.pydata.org/docs/intro.html) package manager to install all the requirements 
 (you can install [miniconda](http://conda.pydata.org/miniconda.html) or install the (larger) Anaconda

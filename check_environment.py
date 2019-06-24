@@ -1,6 +1,6 @@
 import importlib
 
-packages = ['geopandas', 'contextily', 'folium', 'fiona', 'rtree']
+packages = ['geopandas', 'contextily', 'fiona', 'rtree', 'mapclassify']
 
 bad = []
 for package in packages:
