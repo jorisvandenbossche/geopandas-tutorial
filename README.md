@@ -17,7 +17,7 @@ The tutorial will cover the following topics, each of them using Jupyter noteboo
 
 This repository initially contained the teaching material for the geospatial data analysis tutorial
 at [GeoPython 2018](http://2018.geopython.net), May 7-9 2018, Basel, Switzerland, and was later updated and also
-used at [Scipy 2018](https://scipy2018.scipy.org/) and [EuroScipy 2018](https://www.euroscipy.org/2018/).
+used at [Scipy 2018](https://scipy2018.scipy.org/), [EuroScipy 2018](https://www.euroscipy.org/2018/), [GeoPython 2019](http://2019.geopython.net), [EuroScipy 2019](https://www.euroscipy.org/2019/).
 
 
 ## Installation notes
@@ -50,6 +50,13 @@ For the optional dependencies, you can do:
 ```
 conda install cartopy
 conda install geoplot -c conda-forge
+```
+
+Or alternatively, create a new environment for this tutorial using the provided environment.yml file:
+
+```
+conda env create --name geo-tutorial --file environment.yml
+conda activate geo-tutorial
 ```
 
 But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well (a requirements file is provided as well), as long
