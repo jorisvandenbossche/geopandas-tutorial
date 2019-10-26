@@ -15,7 +15,7 @@ else:
     else:
         try:
             import geopandas
-            countries = geopandas.read_file("zip://./data/ne_110m_admin_0_countries.zip")
+            countries = geopandas.read_file(r"geopandas-tutorial\data\ne_110m_admin_0_countries")
             print("All good. Enjoy the tutorial!")
         except Exception as e:
             print("Couldn't read countries shapefile.")
