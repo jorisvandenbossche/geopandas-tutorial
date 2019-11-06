@@ -1,1 +1,1 @@
-districts.loc[districts.geometry.area.idxmax()]
+stations.plot(figsize=(12, 6), column='available_bikes', legend=True)

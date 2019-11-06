@@ -1,1 +1,1 @@
-stations.head()
+stations.shape

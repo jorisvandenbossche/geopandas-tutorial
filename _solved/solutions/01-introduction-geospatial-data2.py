@@ -1,1 +1,1 @@
-type(districts)
+type(stations)

@@ -24,14 +24,14 @@ used at [Scipy 2018](https://scipy2018.scipy.org/), [EuroScipy 2018](https://www
 
 Following this tutorial will require recent installations of:
 
-- Python >= 3.5 (it will probably work on python 2.7 as well, but I didn't test it specifically)
+- Python >= 3.5
 - pandas
 - geopandas >= 0.5.0
 - matplotlib
 - rtree
 - mapclassify
 - contextily
-- [Jupyter Notebook](http://jupyter.org)
+- [Jupyter Notebook or Lab](http://jupyter.org)
 - *(optional for mining sites case study)* rasterio, rasterstats
 - *(optional for visualisation showcase)* cartopy, geoplot, folium, ipyleaflet
 
@@ -59,7 +59,7 @@ conda env create --name geo-tutorial --file environment.yml
 conda activate geo-tutorial
 ```
 
-But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well (a requirements file is provided as well), as long
+But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well, as long
 as you have the above packages installed.
 
 **Want to try out without installing anything?** You can use the "launch binder" link above at the top of this README, which will launch a notebook instance on Binder with all required libraries installed.

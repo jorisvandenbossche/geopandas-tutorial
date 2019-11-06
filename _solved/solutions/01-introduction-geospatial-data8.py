@@ -1,1 +1,1 @@
-districts.geometry.area
+stations['bike_stands'].hist()
