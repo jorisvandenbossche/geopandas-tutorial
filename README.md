@@ -59,6 +59,12 @@ conda env create --name geo-tutorial --file environment.yml
 conda activate geo-tutorial
 ```
 
+Alternative:
+
+```
+conda create -n geo-tutorial python=3.7 geopandas contextily rasterio cartopy geoplot mapclassify folium ipyleaflet rasterstats jupyterlab --channel conda-forge --strict-channel-priority
+```
+
 But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well, as long
 as you have the above packages installed.
 
