@@ -39,34 +39,30 @@ If you do not yet have these packages installed, we recommend to use the [conda]
 (you can install [miniconda](http://conda.pydata.org/miniconda.html) or install the (larger) Anaconda
 distribution, found at https://www.anaconda.com/download/).
 
-Once this is installed, the following command will install all required packages in your Python environment:
+Using conda, we recommend to create a new environment with all packages using the
+following commands:
 
-```
-conda install jupyter geopandas
-```
-
-For the optional dependencies, you can do:
-
-```
-conda install cartopy
-conda install geoplot -c conda-forge
-```
-
-Or alternatively, create a new environment for this tutorial using the provided environment.yml file:
-
-```
+```bash
+# ensure you have at least conda >=4.6
+conda update conda
+# setting the configuation so all packages come from the conda-forge channel
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+# navigate to the downloaded (or git cloned) material
+cd .../geopandas-tutorial/
+# creating the environment
 conda env create --name geo-tutorial --file environment.yml
+# activating the environment
 conda activate geo-tutorial
 ```
 
-Alternative:
+For this, you need to already download the materials first (see below), as it
+makes use of the `environment.yml` file included in this repo.
 
-```
-conda create -n geo-tutorial python=3.7 geopandas contextily rasterio cartopy geoplot mapclassify folium ipyleaflet rasterstats jupyterlab --channel conda-forge --strict-channel-priority
-```
-
-But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well, as long
-as you have the above packages installed.
+Alternatively, you can install the packages using conda manually, or you can use
+another distribution (e.g. Enthought Canopy) or ``pip``, as long as you have
+the above packages installed. In that case, we refer to the installation instructions
+of the individual packages.
 
 **Want to try out without installing anything?** You can use the "launch binder" link above at the top of this README, which will launch a notebook instance on Binder with all required libraries installed.
 
