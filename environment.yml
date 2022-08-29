@@ -1,15 +1,24 @@
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
-  - geopandas
-  - contextily
-  - rasterio
-  - cartopy
-  - geoplot
-  - mapclassify
-  - folium
-  - ipyleaflet
-  - rasterstats
+  - python=3.10
   - jupyter
-  - jupyterlab
+  - jupyterlab>3
+  - ipython
+  - numpy
+  - pandas
+  - geopandas
+  - pygeos
+  - rasterio
+  - rasterstats
+  - matplotlib
+  - mapclassify
+  - cartopy
+  - contextily
+  - geoplot
+  - ipympl
+  - ipyleaflet
+  - folium
+  - hvplot
+  - geoviews
+  - pyepsg
