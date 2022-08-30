@@ -1,0 +1,1 @@
+urban_green = combined[combined["class"] == "Green urban areas"]

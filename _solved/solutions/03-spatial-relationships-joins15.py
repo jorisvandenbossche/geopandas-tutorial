@@ -1,3 +1,3 @@
 # Spatial join of the trees and districts datasets
-joined = geopandas.sjoin(trees, districts, op='within')
+joined = geopandas.sjoin(trees, districts, predicate='within')
 joined.head()

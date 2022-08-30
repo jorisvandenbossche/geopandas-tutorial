@@ -1,0 +1,1 @@
+urban_green_fraction = urban_green_area / districts_area * 100
